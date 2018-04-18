@@ -13,6 +13,7 @@
 	},
 	"dependencies": {
 		"async": "^2.5.0",
-		"docusaurus": "../../Docusaurus/"
+		"docusaurus": "../../Docusaurus/",
+		"tcp-port-used": "^0.1.2"
 	}
 }

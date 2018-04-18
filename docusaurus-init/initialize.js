@@ -45,9 +45,9 @@ fs.writeFileSync(
 );
 
 if (useYarn) {
-  shell.exec("yarn add docusaurus --dev");
+  shell.exec("yarn add hcb-docusaurus --dev");
 } else {
-  shell.exec("npm install docusaurus --save-dev");
+  shell.exec("npm install hcb-docusaurus@ --save-dev");
 }
 
 console.log(chalk.green("Docusaurus installed in website folder!\n"));
